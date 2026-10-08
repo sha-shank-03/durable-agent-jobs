@@ -1,0 +1,11 @@
+* text=auto
+mvnw text eol=lf
+mvnw.cmd text eol=crlf
+*.java text eol=lf
+*.sql text eol=lf
+licenses/** -text
+docs/third-party-licenses/** -text
+LICENSE -text
+NOTICE -text
+*.md text eol=lf
+*.yml text eol=lf

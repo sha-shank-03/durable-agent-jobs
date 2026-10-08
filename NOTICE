@@ -1,0 +1,7 @@
+durable-agent-jobs
+Copyright 2026 durable-agent-jobs contributors
+
+This product includes Apache Maven Wrapper startup scripts developed by
+The Apache Software Foundation, SQLite JDBC developed by Xerial and contributors,
+and Gson developed by Google and contributors.
+See THIRD_PARTY_NOTICES.md and META-INF/licenses/ in the packaged artifact.

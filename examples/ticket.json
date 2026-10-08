@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "agent": "mock-ticket/v1",
+  "request": {
+    "title": " Fictional export job needs investigation ",
+    "body": "Synthetic support request. No real account or production action."
+  },
+  "max_steps": 20
+}

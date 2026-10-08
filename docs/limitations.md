@@ -1,0 +1,17 @@
+# Contribution and operating limits
+
+This repository combines established transactional job/checkpoint/idempotency patterns with a small Java API, explicit replay contracts and a separately persisted fictional tool. Its useful contribution is the runnable inspection/failure harness: observe a committed tool effect with no runtime receipt, restart safely according to the contract, and compare calls with effects. Research overlaps Temporal activity durability and LangGraph persistence; the project makes no novelty, benchmark, adoption or replacement claim.
+
+Only one worker on one host/local filesystem is supported. FileChannel locking is local ownership, not a distributed lease. Persisted generations fence runtime completion but cannot fence a provider that does not accept/enforce such a token. Request deduplication and keyed tool deduplication are different boundaries. The keyed mock atomically stores its key/effect/receipt in one SQLite transaction; real providers must enforce their own equivalent behavior and retain keys long enough.
+
+Cancellation and deadlines stop future progress, clear execution ownership and discard late results. They cannot roll back a committed tool effect. Interruption is cooperative; after an ignored interruption, dispatch stops and the lock stays quarantined until JVM exit while a tool may still produce effects. There is no security boundary around compiled adapters. Pure Agent.next is synchronous trusted code and must promptly return; tool timeout does not hard-stop an agent decision.
+
+Typed ToolFailure classifications and ReplayContract are trusted adapter assertions. Wrongly claiming no effect or keyed safety can make retry unsafe. An unclassified exception remains uncertain. NON_IDEMPOTENT uncertainty requires NEEDS_REVIEW with no automatic reinvocation. Exhausted ambiguous safe attempts yield a FAILED job whose operation may remain UNKNOWN. There is no command for arbitrary reconciliation or forced replay.
+
+Defaults/bounds are documented in README and enforced by JobSpec/JobPolicy/JsonSupport. Deadlines begin at submission and include queue/retry time; operation budgets include abandoned attempts. The worker drains currently eligible work and waits for bounded persisted retries; it is not a schedule service. History, request keys, checkpoints and tool keys accumulate, and no retention/compaction service is included.
+
+SQLite uses local WAL/FULL and short transactions. Tests cover process halts and transactional behavior, not physical power loss, storage corruption, cross-host filesystems or hardware certification. Database kind/version checks reject incompatible stores. Default M1 specification identity remains stable, but no general active-job hot-upgrade compatibility is promised.
+
+The CLI accepts built-in mock agent versions only. All demonstrated inputs/effects are fictional; there are no live model calls, external account operations or recorded model replay. Native SQLite extraction requires a writable local temp directory. JDK 17 is installed by the operator/CI and is not redistributed.
+
+Windows/JDK 17 builds, 39 tests and packaged actual child-JVM crash recovery have executed locally and received independent M1/M2 main review. Windows/Linux CI and POSIX quickstart are prepared; hosted/POSIX execution remains unverified. Dependency metadata/licenses are evidence, not a legal or security certification; see THIRD_PARTY_NOTICES for gaps and external prerequisites.

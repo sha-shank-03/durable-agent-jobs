@@ -1,0 +1,20 @@
+{
+  "slug": "durable-agent-jobs",
+  "label": "final-main-help",
+  "argv": [
+    "java",
+    "-Xmx256m",
+    "-XX:MaxMetaspaceSize=128m",
+    "-jar",
+    "target/durable-agent-jobs.jar",
+    "--help"
+  ],
+  "cwd": "<local-portfolio>\\durable-agent-jobs",
+  "started_at_utc": "2026-10-08T02:37:20.683240+00:00",
+  "duration_seconds": 0.125,
+  "exit_code": 0,
+  "timed_out": false,
+  "stdout": "durable-agent-jobs 0.1.0 \u2014 M2 deterministic mock runtime\njava -jar target/durable-agent-jobs.jar [--db PATH] [--tool-db PATH] COMMAND\n  submit  --key KEY --spec JSON_FILE\n  worker  --drain [--unsafe-mock] [--mock-fault after-tool-commit]\n  inspect --key KEY [--json]\n  cancel  --key KEY\n  demo    [--dir PARENT] [--scenario happy|crash-idempotent|crash-unsafe|all]\nDefault DB: work/jobs.db; default tool DB: mock-tool.db beside job DB.\nDemo creates a new directory and never removes an existing database.\nExplicit mock fault halts only this JVM at the tool/runtime commit gap, exit 86.\nPolicy: max_attempts, retry_base_ms, tool_timeout_ms, job_timeout_ms.\nNo model calls. Replay contracts describe adapter obligations, not exactly-once guarantees.\nExit: 0 success; 2 usage/input; 3 conflict/job/demo failure; 4 worker/recovery;\n      5 storage/file; 6 unexpected runtime error.\n\n",
+  "stderr": "",
+  "scope": "independently executed by main; result alone does not imply full acceptance"
+}

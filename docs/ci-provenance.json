@@ -1,0 +1,24 @@
+[
+  {
+    "repository": "actions/checkout",
+    "tag": "v5.0.0",
+    "sha": "08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+    "object_type": "commit",
+    "source": "https://api.github.com/repos/actions/checkout/git/ref/tags/v5.0.0",
+    "retrieved": "2026-10-08T01:58:16.9626905Z",
+    "license": "MIT",
+    "license_source": "https://raw.githubusercontent.com/actions/checkout/08c6903cd8c0fde910a37f88322edcfb5dd907a8/LICENSE",
+    "license_sha256": "3e855ffa704114a51628ef8f0bf3aeb41728adf9d9070e263bf58aa5640b0eb5"
+  },
+  {
+    "repository": "actions/setup-java",
+    "tag": "v5.0.0",
+    "sha": "dded0888837ed1f317902acf8a20df0ad188d165",
+    "object_type": "commit",
+    "source": "https://api.github.com/repos/actions/setup-java/git/ref/tags/v5.0.0",
+    "retrieved": "2026-10-08T01:58:17.3530931Z",
+    "license": "MIT",
+    "license_source": "https://raw.githubusercontent.com/actions/setup-java/dded0888837ed1f317902acf8a20df0ad188d165/LICENSE",
+    "license_sha256": "7d070f6b64d9bcc530fe99cc21eaaa4b3c364e0b2d367d7735671fa202a03b32"
+  }
+]

@@ -1,0 +1,7 @@
+target/
+work/
+*.db
+*.db-wal
+*.db-shm
+*.worker.lock
+*.log

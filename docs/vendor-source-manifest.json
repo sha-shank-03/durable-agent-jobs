@@ -1,0 +1,76 @@
+[
+  {
+    "source": "https://raw.githubusercontent.com/apache/maven-wrapper/maven-wrapper-3.3.4/maven-wrapper-distribution/src/resources/only-mvnw",
+    "path": "mvnw",
+    "retrieved": "2026-10-07",
+    "bytes": 11804,
+    "sha256": "2430eaa983c5b683466567b54a43ff8efe2f52e29cd5704f419b1b2683c2b99b",
+    "repository_sha256": "cae96cef89ebea3531221f4ae17c23cf8edf67d00eae8306d4186ae1bbed4d02",
+    "transformation": "Replaced upstream version placeholder with 3.3.4."
+  },
+  {
+    "source": "https://raw.githubusercontent.com/apache/maven-wrapper/maven-wrapper-3.3.4/maven-wrapper-distribution/src/resources/only-mvnw.cmd",
+    "path": "mvnw.cmd",
+    "retrieved": "2026-10-07",
+    "bytes": 8306,
+    "sha256": "290eb2329eb1e189f2b6aca12ef34dbd055faff30213fac4ba58b8457d40c458",
+    "repository_sha256": "4a361e1374a3e5ad6d03e18e9adc0cf181ac5058ac6203b76f0ba3b456b56481",
+    "transformation": "Replaced upstream version placeholder with 3.3.4."
+  },
+  {
+    "source": "https://raw.githubusercontent.com/apache/maven-wrapper/maven-wrapper-3.3.4/LICENSE",
+    "path": "LICENSE",
+    "retrieved": "2026-10-07",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "repository_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/apache/maven-wrapper/maven-wrapper-3.3.4/NOTICE",
+    "path": "licenses/maven-wrapper-NOTICE.txt",
+    "retrieved": "2026-10-07",
+    "bytes": 394,
+    "sha256": "706530c7c8baaa8dd4b37f3f12c87042c73b9d53051a0197770373516d85ec0f",
+    "repository_sha256": "706530c7c8baaa8dd4b37f3f12c87042c73b9d53051a0197770373516d85ec0f"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/xerial/sqlite-jdbc/3.53.4.0/LICENSE",
+    "path": "licenses/sqlite-jdbc-LICENSE.txt",
+    "retrieved": "2026-10-07",
+    "bytes": 11560,
+    "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+    "repository_sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/xerial/sqlite-jdbc/3.53.4.0/LICENSE.zentus",
+    "path": "licenses/sqlite-jdbc-LICENSE.zentus.txt",
+    "retrieved": "2026-10-07",
+    "bytes": 1312,
+    "sha256": "89167dab92289c7e5e2b65b044f0856b703d05e5d5e35c3548e73d9c7d2f5048",
+    "repository_sha256": "89167dab92289c7e5e2b65b044f0856b703d05e5d5e35c3548e73d9c7d2f5048"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/xerial/sqlite-jdbc/3.53.4.0/NOTICE",
+    "path": "licenses/sqlite-jdbc-NOTICE.txt",
+    "retrieved": "2026-10-07",
+    "bytes": 174,
+    "sha256": "a0670cf020edf700524c43c85321c2ba027a8bace5682001db60875d4a9fe52b",
+    "repository_sha256": "a0670cf020edf700524c43c85321c2ba027a8bace5682001db60875d4a9fe52b"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/google/gson/gson-parent-2.14.0/LICENSE",
+    "path": "licenses/gson-LICENSE.txt",
+    "retrieved": "2026-10-07",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "repository_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/google/error-prone/v2.48.0/COPYING",
+    "path": "licenses/error-prone-LICENSE.txt",
+    "retrieved": "2026-10-07",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "repository_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  }
+]

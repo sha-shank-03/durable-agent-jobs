@@ -1,0 +1,215 @@
+{
+  "accepted_M2_runtime_class_files": 39,
+  "all_runtime_class_bytes_unchanged": true,
+  "previous_jar_sha256": "09a8582c91186ad385458e5c94a3748e9ab7aaf042215d4fbb519f27bc6c6e46",
+  "final_jar_sha256": "12572a9886b54fa458d293f93817bf62339b510669d04a96d9e52f08937d2671",
+  "final_jar_bytes": 12441556,
+  "observed_date": "2026-10-08",
+  "source_files_preserved": [
+    {
+      "path": "tools/verify-m2.py",
+      "sha256": "76437b8c3e6afdc586fe0df1ccb54e03ce9c7fac16ad830257d61d5cf2011a9e"
+    },
+    {
+      "path": "tools/verify-m1.ps1",
+      "sha256": "7a9bc3f7e8be509970ff405403ac444f4ba2bac25a26d96f44d9960caf87befd"
+    },
+    {
+      "path": "tools/bootstrap.ps1",
+      "sha256": "c85158755681e432cef1caf2434810b3f5eb519d060e3bf4257745998c4faf8c"
+    },
+    {
+      "path": ".mvn/wrapper/maven-wrapper.properties",
+      "sha256": "f83d4f05faa264064f32af5962b5b5cd8e0b3556f5ec390a582f4808ff6a6ce9"
+    },
+    {
+      "path": ".mvn/maven.config",
+      "sha256": "2737687136e7909a57e988129638ba18e78ba2483e2910840806e7f509ebe428"
+    },
+    {
+      "path": "src/main/resources/unsafe-tool-schema.sql",
+      "sha256": "750818d6842a603f5dd0e41061ff71ad5abca4db6d6e9eed50cc5fcdb1e40197"
+    },
+    {
+      "path": "src/main/resources/schema.sql",
+      "sha256": "2ab6bede35b6b6673ba073d05e67fcaedb25b671806a32829d9a2933b71fdbe4"
+    },
+    {
+      "path": "src/main/resources/mock-tool-schema.sql",
+      "sha256": "f3f293326740aa3babb9545093c85d7ed0f2029ab921de933d93d4e0cb3b5763"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/store/SqliteJobStore.java",
+      "sha256": "e310faf832f5b78fd63de48660b1066dc281402a812fd6a9bc22c6cfd1365259"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/store/SqliteDatabase.java",
+      "sha256": "515ae4613701bff869aacc8e5f2934d6ddf42be00dcac3c1caf581985d237860"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/store/JobRecord.java",
+      "sha256": "d517033501298ff617bf2c7412210d01e224e28bdf3280b094d4dee8e0fc197d"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/runtime/WorkerLock.java",
+      "sha256": "e99826217d3797f894a77cd168ca2a2da603c74d82c43646fa8656b31ee11d53"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/runtime/JobWorker.java",
+      "sha256": "3fc90802fab2962f65e0ff8dbcca096d25289c4e30b6e00b3af278796aa6289f"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/api/ToolResult.java",
+      "sha256": "0f2b8543ff7860b644c5b36acbe01bba1f8d5d67d83584bb62f5f1196078dfb0"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/api/ToolRequest.java",
+      "sha256": "597eb1de223d79d19a6b1faaf8c36c5c1695c2c630cd15cbeb6661a0a74cd7d2"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/api/ToolFailure.java",
+      "sha256": "8d4598f2022162c5b5c5ab84ae5a597c05ca17ae55c4b2f55b3d7acec0192ad9"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/api/ToolCall.java",
+      "sha256": "1b7f62c4ad6e5b4440efb39d7d59ce15f637aa42e009fc313aba7869dfbef592"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/api/ToolAdapter.java",
+      "sha256": "0ed97436c0f948e176eee0c716d68ca810562d1071d4bf684edb47db760b91b2"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/api/ReplayContract.java",
+      "sha256": "6e1dc8e04ccf3bc53180f7ed8899e7ec0c9f7caf791c817a878636004b9cae8a"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/api/JsonSupport.java",
+      "sha256": "3389531545d128e351ed4d061c619b4841ce6d321c5786a4955ca83e985e6717"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/api/JobState.java",
+      "sha256": "96142051fadc9397c94b86cd4586a009d8fb6db3b2edf71fc07aa8c0ade29f6c"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/api/JobSpec.java",
+      "sha256": "7254f7f8ff7e244edcd668c1ef847573e5743d58e62f719278dfbace505984d6"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/api/JobPolicy.java",
+      "sha256": "0ea5f9df2b3407bfd5da7b22b7b819326e9aff170834ee9136d9537f920d34f2"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/api/JobException.java",
+      "sha256": "13a22d7ef280a916a31ee4224c5e844a0d1d9d5029718780aa85afe9b0085ccc"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/api/Checkpoint.java",
+      "sha256": "5e40c8d71a7efb844c19fcbb69486f6d2ed42cf91ca691938720268d4852fb42"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/api/AgentDecision.java",
+      "sha256": "fe3ae2cc780f733f6781eb4756d7fe1f5643b503fc90b3c43604b85101867ac9"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/api/Agent.java",
+      "sha256": "b8b1260053e050d7e84c3135bb82cd769767818c3e34c74b5fe12d02342e31eb"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/cli/RecoveryDemo.java",
+      "sha256": "04cbdebd5ec2c2dc0f595231e4f960d6eeb0b15e743571884f709c48826ab674"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/cli/Main.java",
+      "sha256": "4a3d5a22016bbc4763882abe55b4469c455e356b1e7fc422a19299307363ea2d"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/mock/UnsafeMockTicketTool.java",
+      "sha256": "50898fa02974ce9e5d457bda6f48fc4c1b9cb04a908b5310190c73127e14b339"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/mock/NormalizeTool.java",
+      "sha256": "3534803fd55e280f710067e7e67de10020454f14627c4367b225711607db37c9"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/mock/MockTicketTool.java",
+      "sha256": "8bbf175ac7985c1f8882516cc63144c218043d8b5d91b60af0a64565a984bc80"
+    },
+    {
+      "path": "src/main/java/dev/durablejobs/mock/MockTicketAgent.java",
+      "sha256": "ab0ad6b121464f3fe13455339cb23c29a071efb8e42fbd5267d1c56bc2ea91aa"
+    },
+    {
+      "path": "src/test/java/dev/durablejobs/ValidationTest.java",
+      "sha256": "9fe329396a554740326141dc09b767da026637029a81bcaf85eab6906c825b7a"
+    },
+    {
+      "path": "src/test/java/dev/durablejobs/RecoveryTest.java",
+      "sha256": "06ef055dd0a30dd79b7e1d802a220b26b311e8b3a4801498e6957610cd88c06b"
+    },
+    {
+      "path": "src/test/java/dev/durablejobs/JobFlowTest.java",
+      "sha256": "027012b85d32a9d502ac571cadc061bd2cf78c9b50c2ec7a72f0f9655ad8b45d"
+    },
+    {
+      "path": "src/test/java/dev/durablejobs/CliTest.java",
+      "sha256": "aaeaae25b961ca47a0423905429a84e91c5c8e51a137475c1aed075949542116"
+    },
+    {
+      "path": "pom.xml",
+      "sha256": "e3179a1eb53bd6b394a1e93f63fb74dda81f78b4e7ab91030801f92ae4be604b"
+    },
+    {
+      "path": "mvnw",
+      "sha256": "cae96cef89ebea3531221f4ae17c23cf8edf67d00eae8306d4186ae1bbed4d02"
+    },
+    {
+      "path": "mvnw.cmd",
+      "sha256": "4a361e1374a3e5ad6d03e18e9adc0cf181ac5058ac6203b76f0ba3b456b56481"
+    }
+  ],
+  "runtime_class_sha256": {
+    "dev/durablejobs/api/Agent.class": "32f534fda33c65b98a0c36bdc71da180e505a2a5a70338df5f821fadc5013c06",
+    "dev/durablejobs/api/AgentDecision$Complete.class": "3a457277c7f091be8c7f03da67ede3a0390ffb2188a4d855260b13859f0e38d8",
+    "dev/durablejobs/api/AgentDecision$Invoke.class": "cb2cc2a5761a5db2278ca92976bb509acd5d949a9a354d5b901255ad9d03e436",
+    "dev/durablejobs/api/AgentDecision.class": "ce8df0aa577eabf5db1b2c05e05732d12189d9f6b93211fe262913831db554e4",
+    "dev/durablejobs/api/Checkpoint.class": "961fc176fac5bf56e9bc3703e9b50a6ea6690e6214d0812fcd1fd349c6b461a3",
+    "dev/durablejobs/api/JobException.class": "acc4b5862e43ff7289473fbf42fd3cdc4c945510371dc7034c3bab70942f8e6c",
+    "dev/durablejobs/api/JobPolicy.class": "1aa5d56dae01275f0f80f472a44278bb179c6cab38999a3473d6bbc42a43b7d1",
+    "dev/durablejobs/api/JobSpec.class": "99d0de26d2aa02993e76ba9465e0bc256a6c984ff027c24ff4bda133d0b77695",
+    "dev/durablejobs/api/JobState.class": "f4eede120a2f5f9bdbee71074088968259b50e50479329d5be6008fa3c85eea7",
+    "dev/durablejobs/api/JsonSupport$1.class": "721782e34692528ac02342b34b6bd476f422b3bbfdb11d68f0812133b56d3d57",
+    "dev/durablejobs/api/JsonSupport.class": "783120fdfdff2de12803500d3afbeab0b86caba7960a6f23e3a4c4d783214e99",
+    "dev/durablejobs/api/ReplayContract.class": "fc5497ee57d180485687c291f5ca7877ab2da17de599ecaf8108cfc97d90f1ce",
+    "dev/durablejobs/api/ToolAdapter.class": "2285b36efa250e83aaca9a8b82e0493d6c1a1c2cc3ffba6a968babf3e6495a68",
+    "dev/durablejobs/api/ToolCall.class": "a61d5a008173de3e9860edfd8069e7f27844ca8f71e064e03e09a53715227d80",
+    "dev/durablejobs/api/ToolFailure$Kind.class": "2032a0057c73e2d1e3e54f98332aa9db47900ff6854c1ce4febbed166f05c059",
+    "dev/durablejobs/api/ToolFailure.class": "752c0967e4c35c0d619ac8cfcfbd564ec51de41c5334ebf4f34578ca1c4d95bc",
+    "dev/durablejobs/api/ToolRequest.class": "390c09ab846bb9ac299c6b8827ce165a4b3227166bc3e22f0e22657ed34be84e",
+    "dev/durablejobs/api/ToolResult.class": "9d3417199d427479c210d5e26c3cf523f5a22a5372633cc01c7d7668babdf013",
+    "dev/durablejobs/cli/Main$Arguments.class": "109d89ea107c0e4a79babec7cd7ddf45ba03828fc3bdbe868c90c26d6915b32c",
+    "dev/durablejobs/cli/Main.class": "4eedc6146e69e208b4271f9c2810c7581d5f3b020de111eaeb1b0ee7a70b272a",
+    "dev/durablejobs/cli/RecoveryDemo$1.class": "bc331380b869515dc6cdf0ff4039911a22355e7990979a4b05c12c5542e30058",
+    "dev/durablejobs/cli/RecoveryDemo$2.class": "997abd7c64f641bd201335a3887bffd792cb309a18d692b624075fb95925d5ec",
+    "dev/durablejobs/cli/RecoveryDemo.class": "3b8e06aa6dc31ddcf86562d374f7d5c6876887badc87186a353155868675397c",
+    "dev/durablejobs/mock/MockTicketAgent.class": "f278d33208b0d34b512c3ab434ba6ae43075ed5675d9c731e007134a81454953",
+    "dev/durablejobs/mock/MockTicketTool$Outcome.class": "9b44153162d8221fc3fae00656aa25067ac3c74cffad150e7964883a8737b3a3",
+    "dev/durablejobs/mock/MockTicketTool$Stats.class": "f270d0faae20557f32af6f00d4b4d7948700e3e133876c8cb20c7b6a908e10c2",
+    "dev/durablejobs/mock/MockTicketTool.class": "8cd4cf852024677b41f59f90671e82cdaf6a9787b5b04c52343bdd288f9f4974",
+    "dev/durablejobs/mock/NormalizeTool.class": "7c890872911b15044622db4b4cf5cfb02e88017a3956d905b4f98153416b6d25",
+    "dev/durablejobs/mock/UnsafeMockTicketTool.class": "dba5bd5267c822685a0b22f24ae895aa3e6b145f63874f3ba9a7c6c50432ed70",
+    "dev/durablejobs/runtime/JobWorker$1.class": "919d05cae1b29c451d98089bb36d363715f610818b3d6a6f5ce52b79fa1dfb12",
+    "dev/durablejobs/runtime/JobWorker$RunSummary.class": "e76b365500b58c36c9bb5637eaa814e75107ebe1650b1465be2521aca431d499",
+    "dev/durablejobs/runtime/JobWorker$Sleeper.class": "e46ecd9b8982b2eb8be31528e0302db099b3cd10eb15388ec222eb10d51e3dd7",
+    "dev/durablejobs/runtime/JobWorker.class": "dc578184b9ad114ecd170542fb2579aeb0be4c8714838746aa3a36fb7219d5bf",
+    "dev/durablejobs/runtime/WorkerLock.class": "2aa5c0c3f584eb1c43ba1298e3aba0304957576bfb6b3e8a43694c8e1db5bf14",
+    "dev/durablejobs/store/JobRecord.class": "8f4850c0701a9e0108625c318e04807da9a683f5a9c07cb24e1c8e2ca8c40c7d",
+    "dev/durablejobs/store/SqliteDatabase$SqlWork.class": "ccfadda84fe34b4b46700d80ebf3e1fdc09ca18bd4a0af49026c50533fca76f1",
+    "dev/durablejobs/store/SqliteDatabase.class": "233255f7b4502b60171c86c9752540c2f3f044fcb84c30044a0616dcba1b8763",
+    "dev/durablejobs/store/SqliteJobStore$Submission.class": "77c165f72226aa3aebdfd4e082bbc64f09873b664dddc2006581356589454ae9",
+    "dev/durablejobs/store/SqliteJobStore.class": "9cf683b59e6e2397f52ba5abde9e270e7666f92917ba12b5d3b6a56982fb8677"
+  },
+  "limits": [
+    "Comparison is with the M2 artifact present after main independent review; original worker M2 artifact hash is separately retained in historical evidence.",
+    "Source/class equality is not an entire reproducible-build claim; packaged attribution changed intentionally."
+  ]
+}

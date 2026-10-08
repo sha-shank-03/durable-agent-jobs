@@ -1,0 +1,24 @@
+{
+  "slug": "durable-agent-jobs",
+  "label": "final-main-happy",
+  "argv": [
+    "java",
+    "-Xmx256m",
+    "-XX:MaxMetaspaceSize=128m",
+    "-jar",
+    "target/durable-agent-jobs.jar",
+    "demo",
+    "--dir",
+    "work/main-final-20261008/happy",
+    "--scenario",
+    "happy"
+  ],
+  "cwd": "<local-portfolio>\\durable-agent-jobs",
+  "started_at_utc": "2026-10-08T02:37:21.054361+00:00",
+  "duration_seconds": 0.719,
+  "exit_code": 0,
+  "timed_out": false,
+  "stdout": "{\"execution_mode\":\"deterministic_mock\",\"scenario\":\"happy\",\"run_dir\":\"C:\\\\Users\\\\shash\\\\Documents\\\\CodexPortfolios\\\\agentic-ai-2026-10-07\\\\durable-agent-jobs\\\\work\\\\main-final-20261008\\\\happy\\\\run-4785913670046430525\",\"state\":\"SUCCEEDED\",\"duplicate_same_job\":true,\"changed_spec_rejected\":true,\"completed_checkpoint_persisted\":true,\"repeat_worker_processed\":0,\"invocation_count\":1,\"effect_count\":1,\"assertions_failed\":0,\"job\":{\"execution_mode\":\"deterministic_mock\",\"milestone\":\"M2\",\"job_id\":\"145ced8d-093a-42bf-8c75-da5df549bdaa\",\"request_key\":\"demo-001\",\"state\":\"SUCCEEDED\",\"checkpoint_sequence\":2,\"deadline_at\":1791427101500,\"cancel_requested\":false,\"result\":{\"execution_mode\":\"deterministic_mock\",\"summary\":\"Created a fictional ticket through a local mock tool.\",\"ticket_id\":\"69089538-dc24-4210-ba56-d1fccee0e3bf\",\"title\":\"Fictional export support request\"},\"checkpoints\":[{\"sequence\":0,\"state\":{}},{\"sequence\":1,\"state\":{\"normalize\":{\"body\":\"Synthetic demo data.\",\"title\":\"Fictional export support request\"}}},{\"sequence\":2,\"state\":{\"create-ticket\":{\"execution_mode\":\"deterministic_mock\",\"ticket_id\":\"69089538-dc24-4210-ba56-d1fccee0e3bf\",\"title\":\"Fictional export support request\"},\"normalize\":{\"body\":\"Synthetic demo data.\",\"title\":\"Fictional export support request\"}}}],\"operations\":[{\"operation_key\":\"normalize\",\"invocation_key\":\"145ced8d-093a-42bf-8c75-da5df549bdaa:normalize\",\"tool_version\":\"mock-normalize/v1\",\"contract\":\"PURE\",\"state\":\"COMPLETED\",\"attempt_count\":1},{\"operation_key\":\"create-ticket\",\"invocation_key\":\"145ced8d-093a-42bf-8c75-da5df549bdaa:create-ticket\",\"tool_version\":\"mock-ticket-tool/v1\",\"contract\":\"IDEMPOTENT_WITH_KEY\",\"state\":\"COMPLETED\",\"attempt_count\":1}],\"attempts\":[{\"operation_key\":\"normalize\",\"attempt_number\":1,\"outcome\":\"COMPLETED\",\"generation\":\"4bfbf400-f2c7-465e-a225-c1cd2674b852\",\"started_at\":1791427041567,\"ended_at\":1791427041595},{\"operation_key\":\"create-ticket\",\"attempt_number\":1,\"outcome\":\"COMPLETED\",\"generation\":\"4bfbf400-f2c7-465e-a225-c1cd2674b852\",\"started_at\":1791427041635,\"ended_at\":1791427041671}],\"events\":[{\"sequence\":1,\"type\":\"SUBMITTED\",\"details\":{}},{\"sequence\":2,\"type\":\"CLAIMED\",\"details\":{}},{\"sequence\":3,\"type\":\"OPERATION_INTENT\",\"details\":{\"contract\":\"PURE\",\"operation_key\":\"normalize\",\"tool\":\"mock-normalize/v1\"}},{\"sequence\":4,\"type\":\"CHECKPOINT_COMMITTED\",\"details\":{\"checkpoint_sequence\":1,\"operation_key\":\"normalize\"}},{\"sequence\":5,\"type\":\"OPERATION_INTENT\",\"details\":{\"contract\":\"IDEMPOTENT_WITH_KEY\",\"operation_key\":\"create-ticket\",\"tool\":\"mock-ticket-tool/v1\"}},{\"sequence\":6,\"type\":\"CHECKPOINT_COMMITTED\",\"details\":{\"checkpoint_sequence\":2,\"operation_key\":\"create-ticket\"}},{\"sequence\":7,\"type\":\"SUCCEEDED\",\"details\":{}}]}}\n",
+  "stderr": "",
+  "scope": "independently executed by main; result alone does not imply full acceptance"
+}
